@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    display: flex;
+    margin: 80px 180px 0px 180px;
+    padding: 50px 180px 0px 180px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo>a>img{
+    display: flex;
+    width: 220px;
+    height: 60px;
+}
+.card{
+    display: flex;
+    margin: 5px 0px 0px 440px;
+}
+.head>a>img{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin: 10px 0px 0px 60px;
+}
+.head>a>p{
+    display: flex;
+    width: 80px;
+    justify-content: space-around;
+    margin: 0px 0px 0px 35px;
+}
+.menu{
+    display: flex;
+    margin: 50px 0px 0px 0px;
+    border-top: 1px solid rgb(212, 212, 212);
+}
+.mainmenu>a{
+    list-style: none;
+    display: flex;
+    float: left;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 15px 0px 15px 100px;
+}
+span{
+    list-style: none;
+    display: flex;
+    float: left;
+    color: red;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 0px 0px 10px 15px;
+}
+.search{
+    display: flex;
+    border-left: 1px solid rgb(212, 212, 212);
+    border-right: 1px solid rgb(212, 212, 212);
+    width: 200px;
+    height: 25px;
+    margin: 15px 0px 0px 600px;
+}
+.search>img{
+    width: 15px;
+    height: 15px;
+    margin: 0px 0px 0px 7px;
+}
+input{
+    border: 0px;
+    width: 150px;
+    height: 20px;
+    margin: 0px 0px 0px 20px;
+
+}
+input:focus {
+    outline: 0px;
+}
+.video{
+    background-color: black;
+    height: 380px;
+}
+video{
+    width: 670px;
+    margin: 0px 0px 0px 620px;
+}
+.moviechart>h3{
+    display: flex;
+    float: left;
+    font-size: 25px;
+    margin: 25px 0px 0px 350px;
+    border-right: 1px solid black;
+    padding: 0px 15px 0px 0px;
+}
+.h3{
+    color: rgb(155, 155, 155);
+    font-size: 20px;
+    margin: 26px 0px 0px 20px;
+}
+.container{
+    display: flex;
+    background-color: rgb(250, 250, 250);
+    height: 600px;
+}
+.arrow{
+    display: flex;
+    border: 1px solid rgb(155, 155, 155);
+    border-radius: 20px;
+    width: 80px;
+    height: 20px;
+    position: relative;
+    left: 48%;
+    top: 30px;
+}
+.arrow>p{
+    font-size: 14px;
+}
+.arrow>img{
+    width: 17px;
+    height: 17px;
+}
+.movieimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    position: absolute;
+    top: 90vh;
+    right: 350px;
+}
+.movieimg>img{
+    width: 230px;
+    height: 300px;
+    margin: 0px 0px 0px 60px;
+    border-radius: 15px;
+}
+.moviename{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.moviename>p{
+    display: flex;
+    width: 220px;
+    float: left;
+    font-weight: 800;
+    font-size: 22px;
+    position: relative;
+    top: 430px;
+    right: 300px;
+}
+.game{
+    margin: 0px 0px 0px 50px;
+}
+.btob{
+    margin: 0px 0px 0px 50px;
+}
+.pizza{
+    position: relative;
+    left: -235px;
+}
